@@ -48,7 +48,7 @@ public:
     IPv6Address();
     IPv6Address(const uint8_t *address);
     IPv6Address(const uint32_t *address);
-    virtual ~IPv6Address() {}
+    virtual ~IPv6Address() = default;
 
     bool fromString(const char *address);
     bool fromString(const String &address) { return fromString(address.c_str()); }

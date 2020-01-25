@@ -59,7 +59,7 @@ class EspClass
 {
 public:
     EspClass() {}
-    ~EspClass() {}
+    ~EspClass() = default;
     void restart();
 
     //Internal RAM

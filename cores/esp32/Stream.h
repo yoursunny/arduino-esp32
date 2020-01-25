@@ -54,7 +54,7 @@ public:
     {
         _timeout = 1000;
     }
-    virtual ~Stream() {}
+    virtual ~Stream() = default;
 
 // parsing methods
 
